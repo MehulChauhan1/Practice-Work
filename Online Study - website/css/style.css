@@ -193,7 +193,7 @@ h1{
 @media only screen and (max-width: 768px){
     h1{
         padding-top: 8rem;
-        width: 80%;
+        width: 85%;
       }
 }
 .btn{
