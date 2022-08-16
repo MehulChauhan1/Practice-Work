@@ -1,0 +1,65 @@
+• What is JavaScript? 
+     JavaScript is the Programming Language for the Web.
+
+• What is the use of isNaN function? 
+     The isNaN() function is used to check whether a given value is an illegal number or not. 
+     It returns true if value is a NaN else returns false.
+
+• What is negative Infinity?
+     The negative infinity in JavaScript is a constant value which is used to represent a value which is the lowest available. 
+     This means that no other number is lesser than this value. It can be generated using a self-made function or by an arithmetic operation.
+
+• Which company developed JavaScript? 
+     Netscape
+
+• What are undeclared and undefined variables? 
+     Undeclared variable means that the variable does not exist in the program at all.
+     Undefined variable means a variable has been declared but it does not have a value. 
+     
+
+• Write the code for adding new elements dynamically? 
+     Syntax: document. createElement("<tagName>"); 
+
+• What is the difference between ViewState and SessionState? 
+     The basic difference between these two is that the ViewState is to manage state at the client's end,
+     making state management easy for end-user while SessionState manages state at the server's end, 
+     making it easy to manage content from this end too.
+
+• What is === operator? 
+     The strict equality operator (===) checks whether its two operands are equal, 
+     returning a Boolean result.
+
+• How can the style/class of an element be changed? 
+     the style of an element is by changing its class attribute. class is a reserved word in JavaScript,
+     so in order to access the element's class, you use element. className .
+
+• How to read and write a file using JavaScript? 
+
+    1. file=fopen(getScriptPath(),0); The function fread() is used for reading the file content.
+    2. str = fread(file,flength(file) ; The function fwrite() is used to write the contents to the file.
+    3. file = fopen("c:\MyFile.txt", 3);// opens the file for writing.
+
+• What are all the looping structures in JavaScript? 
+    for - loops through a block of code a number of times.
+    for/in - loops through the properties of an object.
+    for/of - loops through the values of an iterable object.
+    while - loops through a block of code while a specified condition is true.
+
+• How can you convert the string of any base to an integer in JavaScript? 
+    In JavaScript parseInt() function (or a method) is used to convert the passed in string parameter or value to an integer value itself. 
+    This function returns an integer of base which is specified in second argument of parseInt() function.
+
+• What is the function of the delete operator? 
+    The delete operator removes a given property from an object.
+
+• What are all the types of Pop up boxes available in JavaScript? 
+    Alert box, Confirm box, and Prompt box.
+
+• What is the use of Void (0)? 
+    It is used to prevent any side effects caused while inserting an expression in a web page.
+
+• How can a page be forced to load another page in JavaScript? 
+   We can use window. location property inside the script tag to forcefully load another page in Javascript.
+
+• What are the disadvantages of using innerHTML in JavaScript?
+   There is no append support without reparsing the whole innerHTML. 
