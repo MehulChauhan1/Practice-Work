@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let user1 = {
+            fname: "Mehul",
+            lname: " Chauhan",
+            city: "Surat",
+            birthYear: 1996,
+            calcage: function(){
+                return 2022 - user1.birthYear
+            },
+            detail: function (){
+                return `My name is ${user1.fname}${user1.lname} and i live in ${user1.city} and i am ${user1.calcage()} year old`
+            } 
+        };
+        // console.log(user1);
+        // console.log(user1.calcage());
+        console.log(user1.detail());
+    </script>
+</body>
+</html>
