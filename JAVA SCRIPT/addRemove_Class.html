@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    .headingStyle{
+        color: red;
+        background-color: aqua;
+        font-size: 50px;
+        font-family: sans-serif;
+    }
+</style>
+
+</head>
+<body>
+    <button onclick="addStyle()"> ADD STYLE </button>
+    <button onclick="removeStyle()"> REMOVE STYLE </button>
+    <button onclick="addRemove()"> TOGGLE STYLE </button>
+    <h1 id="style"> HELLO, I AM JUST A TAG  </h1>
+
+    <script>
+        let styletag = document.getElementById("style")
+        function addStyle(){
+            styletag.classList.add("headingStyle");            
+        }
+        function removeStyle(){
+            styletag.classList.remove("headingStyle")
+        }
+        function addRemove(){
+            styletag.classList.toggle("headingStyle")
+        }
+    </script>
+</body>
+</html>
