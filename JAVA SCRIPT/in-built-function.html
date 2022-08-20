@@ -9,6 +9,7 @@
 <body id="bodyTag">
     <button onclick="showAlert()"> Show Alert </button>
     <button onclick="showConfirm()"> Show Submit </button>
+    <button onclick="showPrompt()"> Show Prompt </button>
     <h1 id="heading"> </h1>
     <script>
         function showAlert(){
@@ -29,6 +30,11 @@
                 heading.textContent="Not Submited"
             }
         }
+        function showPrompt(){
+            let username = prompt("Enter Your name");
+            heading.textContent = username
+        }
+
     </script>
 
 
