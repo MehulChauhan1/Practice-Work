@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="input1">
+    <input type="text" id="input2">
+    <button> calculate </button>
+    <h1></h1>
+    <script>
+        let input1 = document.querySelector("#input1");
+        let input2 = document.getElementById("input2");
+        let button = document.querySelector("button");
+        let h1 = document.querySelector("h1")
+
+        button.addEventListener("click", function(){
+            let ans = Number(input1.value) + Number(input2.value);
+            h1.textContent = (`Your ans is ${ans}`);
+        })
+
+    </script>
+</body>
+</html>

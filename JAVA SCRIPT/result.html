@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        div{
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        table{
+            width: 400px;
+            padding: 25px;
+            background-color: skyblue;
+            margin: 0 auto;
+        }
+        td{
+            padding: 5px;
+
+        }
+    </style>
+</head>
+<body>    
+    <div>
+    <table>
+        <tr>
+            <td> <label for=""> Maths</label></td>
+            <td><input type="text" class="maths"></td>
+        </tr>
+        <tr>
+            <td> <label for=""> Science</label></td>
+            <td><input type="text" class="science"></td>
+        </tr>
+        <tr>
+            <td> <label for=""> English </label></td>
+            <td><input type="text" class="english"></td>
+        </tr>
+        <tr>
+            <td> <label for=""> Gujrati </label></td>
+            <td><input type="text" class="gujrati"></td>
+        </tr> 
+        <tr>
+            <td> <label for=""> Total Marks</label></td>
+            <td> <b class="total-Marks"> </b></td>
+        </tr>  
+        <tr>
+            <td> <label for=""> Percentage </label></td>
+            <td> <b class="percentage"> </b> </td>
+        </tr> 
+        <tr>
+            <td> <label for=""> Grade </label></td>
+            <td> <b class="grade"> </b></td>
+        </tr> 
+        <tr>
+            <td> <button onclick="getResult()" > Get result </button></td>
+        </tr>
+</div>
+<script src="result.js"></script>
+</body>
+</html>
